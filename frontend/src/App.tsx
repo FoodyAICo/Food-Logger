@@ -1,3 +1,4 @@
+import ImageUploader from "./components/ImageUploader";
 import { PingButton } from "./components/PingButton";
 
 export default function App() {
@@ -5,6 +6,7 @@ export default function App() {
     <div style={{ padding: "2rem" }}>
       <h1>React - demo</h1>
       <PingButton />
+      <ImageUploader />
     </div>
   );
 }
